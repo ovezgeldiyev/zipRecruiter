@@ -1,0 +1,237 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  .auto__container {
+    padding: 0 40px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 25px;
+  }
+  h6 {
+    font-size: 22px;
+  }
+  p {
+    &.big {
+      font-size: 30px;
+    }
+    &.sm {
+      font-size: 18px;
+    }
+  }
+  body {
+    font-size: 20px;
+    line-height: 135%;
+  }
+  .main {
+    padding-top: 96.47px;
+  }
+  @include header-xxxlg-xxxxlg;
+  @include nav-xxxlg-xxxxlg;
+  @include about-xxxlg-xxxxlg;
+  @include info-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+//   @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  p {
+    &.big {
+      font-size: 25px;
+    }
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  body {
+    font-size: 18px;
+    line-height: 135%;
+    padding: 0 30px 80px;
+  }
+  .button {
+    font-size: 20px;
+    padding: 15px 25px;
+  }
+  @include themes-xlg-xxlg;
+  @include footer-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .auto__container {
+    padding: 0 30px;
+  }
+  .main {
+    padding-top: 80px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    &.big {
+      font-size: 20px;
+    }
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  body {
+    font-size: 16px;
+    padding: 0;
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include about-lg-xlg;
+  @include info-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .video {
+    &__play {
+        span {
+            width: 60px;
+            height: 60px;
+        }
+    }
+  }
+  @include expect-md-lg;
+  @include themes-md-lg;
+  @include company-md-lg;
+}
+// 750px
+@include sm-md {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  @include expect-sm-md;
+  @include themes-sm-md;
+  @include about-sm-md;
+  @include company-sm-md;
+}
+// 650px
+@include sm-md-extra {
+//   @include hero-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  .auto__container {
+    padding: 0 20px;
+  }
+  .main {
+    padding-top: 70px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  p {
+    &.big {
+      font-size: 20px;
+    }
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  body {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 16px;
+    padding: 13px 20px;
+  }
+  .video {
+    &__play {
+        span {
+            width: 50px;
+            height: 50px;
+        }
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include themes-xsm-sm;
+  @include about-xsm-sm;
+  @include info-xsm-sm;
+  @include company-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+//   @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
